@@ -42,5 +42,6 @@ set wildmode=list:longest
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'https://github.com/jiangmiao/auto-pairs'
+Plug 'elixir-lang/vim-elixir'
 call plug#end()
 
