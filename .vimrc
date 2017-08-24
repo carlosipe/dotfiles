@@ -5,6 +5,7 @@
 :nnoremap <Leader>s :update<CR>
 :nnoremap <Leader>x :x<CR>
 :nnoremap <Leader>q :bd<CR>
+:nnoremap <Leader><Leader> :FZF<CR>
 :nnoremap <Leader>p :FZF<CR>
 :nnoremap <Up> <nop>
 :nnoremap <Down> <nop>
@@ -43,5 +44,20 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'elixir-lang/vim-elixir'
+Plug 'https://github.com/mattn/gist-vim'
+Plug 'https://github.com/mattn/webapi-vim'
 call plug#end()
 
+" gist-vim
+let g:gist_post_private = 1
+" The Silver Searcher
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  " let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  " let g:ctrlp_use_caching = 0
+endif
