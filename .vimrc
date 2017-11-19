@@ -42,7 +42,6 @@ set wildmode=list:longest
 " Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'elixir-lang/vim-elixir'
 Plug 'https://github.com/mattn/gist-vim'
 Plug 'https://github.com/mattn/webapi-vim'
