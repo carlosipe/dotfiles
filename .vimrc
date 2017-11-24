@@ -1,4 +1,5 @@
 " Basic stuff, leader to space, remap esc, saving files
+:set t_Co=256
 :let mapleader = " "
 :nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 :imap jk <Esc>l
