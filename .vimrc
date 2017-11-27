@@ -46,6 +46,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'elixir-lang/vim-elixir'
 Plug 'https://github.com/mattn/gist-vim'
 Plug 'https://github.com/mattn/webapi-vim'
+Plug 'elmcast/elm-vim'
 call plug#end()
 
 " gist-vim
