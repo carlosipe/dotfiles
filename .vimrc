@@ -41,6 +41,12 @@ set wildmode=list:longest
 
 " " "
 " Plugins
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://gist.githubusercontent.com/carlosipe/98a3621deee8f9b638881c8489799f69/raw/7e66d1ff96f0b1f761100521080ed8ae53030442/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'elixir-lang/vim-elixir'
