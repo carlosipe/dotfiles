@@ -50,6 +50,7 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'elixir-lang/vim-elixir'
+Plug 'ervandew/supertab'
 Plug 'https://github.com/mattn/gist-vim'
 Plug 'https://github.com/mattn/webapi-vim'
 Plug 'elmcast/elm-vim'
