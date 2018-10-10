@@ -54,6 +54,7 @@ Plug 'ervandew/supertab'
 Plug 'https://github.com/mattn/gist-vim'
 Plug 'https://github.com/mattn/webapi-vim'
 Plug 'elmcast/elm-vim'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
 inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
