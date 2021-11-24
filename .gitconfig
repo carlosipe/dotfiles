@@ -48,3 +48,5 @@
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 [github]
 	user = carlosipe
+[push]
+	default = current
