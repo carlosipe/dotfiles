@@ -8,6 +8,7 @@
 :nnoremap <Leader>q :bd<CR>
 :nnoremap <Leader><Leader> :FZF<CR>
 :nnoremap <Leader>p :FZF<CR>
+:nnoremap <Leader>pr :set textwidth=80 formatoptions=t1
 " Text indentantion
 :set expandtab
 :set shiftwidth=2
