@@ -1,5 +1,5 @@
 #!/bin/sh
-FILES=$(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g' | grep -e "\.Elm$")
+FILES=$(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g' | grep -e "\.elm$")
 [ -z "$FILES" ] && exit 0
 
 # Prettify all selected files
