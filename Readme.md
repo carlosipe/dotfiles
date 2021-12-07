@@ -11,7 +11,20 @@ ln -s dotfiles/.githooks
 ln -s dotfiles/.gitignore_global
 ln -s dotfiles/.vim
 ln -s dotfiles/.vimrc
+ln -s dotfiles/.bash_aliases
 ```
+
+## Add aliases to .bash_profile
+
+Just add
+
+```sh
+if [ -f ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
+
+```
+
 ## Install vim Plug
 
 ```sh
