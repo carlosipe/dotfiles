@@ -20,7 +20,7 @@ alias prc="hub pr checkout"
 alias prt="pull_request_text | pbcopy"
 alias ci="hub ci-status"
 pull_request_text(){
-  hub pr list --head `git rev-parse --abbrev-ref HEAD` --format=':pr: %U%n%t ' && git diff master --numstat --pretty='%H' | awk 'NF==3 {plus+=$1; minus+=$2} END {printf("`+%d, -%d`\n", plus, minus)}'
+  git fetch && hub pr list --head `git rev-parse --abbrev-ref HEAD` --format=':pr: %U%n%t ' && git diff origin/master --numstat --pretty='%H' | awk 'NF==3 {plus+=$1; minus+=$2} END {printf("`+%d, -%d`\n", plus, minus)}'
 }
 
 # Random stuff
