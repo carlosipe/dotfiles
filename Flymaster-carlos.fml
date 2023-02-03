@@ -1,0 +1,100 @@
+<FlymasterLayout>
+    <Page PageID="0" Disabled="0" PageTrig="0" Name="Main Page"/>
+    <Page PageID="1" Disabled="1" PageTrig="1" Name="Airspace Page"/>
+    <Page PageID="2" Disabled="1" PageTrig="8" Name="TurnPoint "/>
+    <Page PageID="3" Disabled="1" PageTrig="0" Name="Goal Page"/>
+    <Page PageID="4" Disabled="1" PageTrig="32" Name="Ground"/>
+    <Page PageID="5" Disabled="0" PageTrig="16" Name="Map Page"/>
+    <Page PageID="6" Disabled="0" PageTrig="0" Name="Page 6"/>
+    <Page PageID="7" Disabled="1" PageTrig="0" Name="Page 7"/>
+    <Page PageID="8" Disabled="0" PageTrig="0" Name=""/>
+    <Page PageID="9" Disabled="0" PageTrig="0" Name=""/>
+    <Page PageID="10" Disabled="0" PageTrig="0" Name=""/>
+    <Page PageID="11" Disabled="0" PageTrig="0" Name=""/>
+    <Page PageID="12" Disabled="0" PageTrig="0" Name=""/>
+    <Page PageID="13" Disabled="0" PageTrig="0" Name=""/>
+    <Page PageID="14" Disabled="0" PageTrig="0" Name=""/>
+    <Page PageID="15" Disabled="0" PageTrig="0" Name=""/>
+    <Object W="121" Y="19" Screens="109" X="119" Attrib="61" RangeMin="0" H="48" RangeMax="0" FieldID="33" ID="1"/>
+    <Object W="120" Y="19" Screens="109" X="0" Attrib="61" RangeMin="0" H="48" RangeMax="0" FieldID="147" ID="1"/>
+    <Object W="32" Y="0" Screens="125" X="2" Attrib="44" RangeMin="0" H="16" RangeMax="0" FieldID="0" ID="57393"/>
+    <Object W="25" Y="0" Screens="125" X="38" Attrib="44" RangeMin="0" H="16" RangeMax="0" FieldID="0" ID="57376"/>
+    <Object W="110" Y="120" Screens="9" X="2" Attrib="44" RangeMin="0" H="110" RangeMax="0" FieldID="0" ID="57360"/>
+    <Object W="30" Y="123" Screens="8" X="207" Attrib="44" RangeMin="0" H="130" RangeMax="0" FieldID="0" ID="57345"/>
+    <Object W="62" Y="235" Screens="8" X="72" Attrib="32" RangeMin="0" H="18" RangeMax="0" FieldID="173" ID="1"/>
+    <Object W="66" Y="239" Screens="8" X="4" Attrib="2" RangeMin="0" H="11" RangeMax="0" FieldID="162" ID="1"/>
+    <Object W="28" Y="0" Screens="125" X="69" Attrib="44" RangeMin="0" H="16" RangeMax="0" FieldID="0" ID="57394"/>
+    <Object W="158" Y="142" Screens="2" X="0" Attrib="45" RangeMin="0" H="177" RangeMax="0" FieldID="0" ID="57408"/>
+    <Object W="110" Y="2" Screens="2" X="70" Attrib="44" RangeMin="0" H="110" RangeMax="0" FieldID="0" ID="57360"/>
+    <Object W="80" Y="114" Screens="2" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="185" ID="1"/>
+    <Object W="80" Y="114" Screens="2" X="79" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="194" ID="1"/>
+    <Object W="30" Y="156" Screens="2" X="207" Attrib="44" RangeMin="0" H="130" RangeMax="0" FieldID="0" ID="57345"/>
+    <Object W="81" Y="114" Screens="2" X="158" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="186" ID="1"/>
+    <Object W="46" Y="207" Screens="2" X="160" Attrib="176" RangeMin="0" H="29" RangeMax="0" FieldID="149" ID="1"/>
+    <Object W="68" Y="0" Screens="2" X="0" Attrib="40" RangeMin="0" H="29" RangeMax="0" FieldID="96" ID="1"/>
+    <Object W="44" Y="68" Screens="9" X="84" Attrib="44" RangeMin="0" H="44" RangeMax="0" FieldID="0" ID="57410"/>
+    <Object W="55" Y="32" Screens="2" X="185" Attrib="44" RangeMin="0" H="55" RangeMax="0" FieldID="0" ID="57410"/>
+    <Object W="45" Y="156" Screens="2" X="161" Attrib="34" RangeMin="0" H="14" RangeMax="0" FieldID="123" ID="1"/>
+    <Object W="45" Y="272" Screens="2" X="161" Attrib="34" RangeMin="0" H="14" RangeMax="0" FieldID="124" ID="1"/>
+    <Object W="69" Y="43" Screens="2" X="1" Attrib="43" RangeMin="0" H="69" RangeMax="80" FieldID="147" ID="53248"/>
+    <Object W="80" Y="290" Screens="2" X="158" Attrib="60" RangeMin="0" H="29" RangeMax="0" FieldID="236" ID="1"/>
+    <Object W="193" Y="185" Screens="4" X="0" Attrib="42" RangeMin="0" H="133" RangeMax="0" FieldID="0" ID="57408"/>
+    <Object W="110" Y="68" Screens="4" X="61" Attrib="44" RangeMin="0" H="110" RangeMax="0" FieldID="0" ID="57360"/>
+    <Object W="72" Y="152" Screens="4" X="165" Attrib="40" RangeMin="0" H="30" RangeMax="0" FieldID="173" ID="1"/>
+    <Object W="72" Y="68" Screens="4" X="165" Attrib="40" RangeMin="0" H="30" RangeMax="0" FieldID="93" ID="1"/>
+    <Object W="56" Y="97" Screens="4" X="2" Attrib="40" RangeMin="0" H="30" RangeMax="0" FieldID="91" ID="1"/>
+    <Object W="56" Y="128" Screens="4" X="1" Attrib="40" RangeMin="0" H="30" RangeMax="0" FieldID="88" ID="1"/>
+    <Object W="67" Y="67" Screens="4" X="0" Attrib="56" RangeMin="0" H="30" RangeMax="0" FieldID="98" ID="1"/>
+    <Object W="76" Y="167" Screens="4" X="4" Attrib="2" RangeMin="0" H="12" RangeMax="0" FieldID="162" ID="1"/>
+    <Object W="53" Y="99" Screens="4" X="175" Attrib="44" RangeMin="0" H="53" RangeMax="0" FieldID="0" ID="57410"/>
+    <Object W="93" Y="150" Screens="9" X="113" Attrib="33" RangeMin="-5" H="34" RangeMax="5" FieldID="149" ID="1"/>
+    <Object W="51" Y="120" Screens="8" X="155" Attrib="32" RangeMin="0" H="18" RangeMax="0" FieldID="123" ID="1"/>
+    <Object W="51" Y="239" Screens="8" X="155" Attrib="32" RangeMin="0" H="18" RangeMax="0" FieldID="124" ID="1"/>
+    <Object W="121" Y="66" Screens="8" X="119" Attrib="45" RangeMin="0" H="48" RangeMax="0" FieldID="98" ID="1"/>
+    <Object W="80" Y="259" Screens="8" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="178" ID="1"/>
+    <Object W="80" Y="287" Screens="8" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="88" ID="1"/>
+    <Object W="80" Y="259" Screens="8" X="79" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="177" ID="1"/>
+    <Object W="80" Y="89" Screens="9" X="0" Attrib="40" RangeMin="0" H="30" RangeMax="0" FieldID="102" ID="1"/>
+    <Object W="80" Y="259" Screens="8" X="158" Attrib="76" RangeMin="0" H="29" RangeMax="0" FieldID="30" ID="1"/>
+    <Object W="80" Y="287" Screens="8" X="79" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="93" ID="1"/>
+    <Object W="84" Y="69" Screens="9" X="1" Attrib="64" RangeMin="0" H="16" RangeMax="0" FieldID="36" ID="1"/>
+    <Object W="80" Y="287" Screens="8" X="158" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="96" ID="1"/>
+    <Object W="40" Y="0" Screens="46" X="198" Attrib="32" RangeMin="0" H="16" RangeMax="0" FieldID="248" ID="1"/>
+    <Object W="37" Y="85" Screens="8" X="83" Attrib="44" RangeMin="0" H="29" RangeMax="4" FieldID="247" ID="1"/>
+    <Object W="47" Y="185" Screens="4" X="192" Attrib="40" RangeMin="-5" H="29" RangeMax="5" FieldID="149" ID="1"/>
+    <Object W="47" Y="215" Screens="4" X="193" Attrib="36" RangeMin="-5" H="47" RangeMax="5" FieldID="105" ID="53248"/>
+    <Object W="120" Y="29" Screens="16" X="119" Attrib="61" RangeMin="0" H="52" RangeMax="0" FieldID="96" ID="1"/>
+    <Object W="120" Y="267" Screens="16" X="0" Attrib="61" RangeMin="0" H="52" RangeMax="0" FieldID="319" ID="1"/>
+    <Object W="110" Y="82" Screens="16" X="3" Attrib="44" RangeMin="0" H="110" RangeMax="0" FieldID="0" ID="57360"/>
+    <Object W="120" Y="267" Screens="16" X="119" Attrib="61" RangeMin="0" H="52" RangeMax="80" FieldID="147" ID="1"/>
+    <Object W="120" Y="29" Screens="16" X="0" Attrib="61" RangeMin="0" H="52" RangeMax="0" FieldID="320" ID="1"/>
+    <Object W="57" Y="223" Screens="80" X="182" Attrib="32" RangeMin="-5" H="16" RangeMax="5" FieldID="105" ID="1"/>
+    <Object W="72" Y="194" Screens="16" X="167" Attrib="46" RangeMin="-3" H="72" RangeMax="3" FieldID="105" ID="53248"/>
+    <Object W="140" Y="208" Screens="16" X="4" Attrib="0" RangeMin="0" H="17" RangeMax="0" FieldID="162" ID="1"/>
+    <Object W="80" Y="224" Screens="16" X="31" Attrib="48" RangeMin="0" H="17" RangeMax="0" FieldID="173" ID="1"/>
+    <Object W="110" Y="83" Screens="16" X="128" Attrib="44" RangeMin="0" H="110" RangeMax="0" FieldID="0" ID="57411"/>
+    <Object W="40" Y="225" Screens="16" X="122" Attrib="44" RangeMin="0" H="40" RangeMax="0" FieldID="0" ID="57410"/>
+    <Object W="238" Y="128" Screens="32" X="1" Attrib="46" RangeMin="0" H="189" RangeMax="0" FieldID="0" ID="57408"/>
+    <Object W="56" Y="68" Screens="32" X="179" Attrib="38" RangeMin="-5" H="56" RangeMax="5" FieldID="105" ID="53248"/>
+    <Object W="80" Y="66" Screens="32" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="342" ID="1"/>
+    <Object W="57" Y="68" Screens="32" X="120" Attrib="44" RangeMin="0" H="57" RangeMax="0" FieldID="0" ID="57410"/>
+    <Object W="119" Y="97" Screens="32" X="0" Attrib="0" RangeMin="0" H="29" RangeMax="0" FieldID="162" ID="1"/>
+    <Object W="82" Y="2" Screens="125" X="99" Attrib="44" RangeMin="0" H="16" RangeMax="0" FieldID="0" ID="57392"/>
+    <Object W="189" Y="96" Screens="64" X="0" Attrib="47" RangeMin="0" H="223" RangeMax="0" FieldID="0" ID="57408"/>
+    <Object W="80" Y="67" Screens="64" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="319" ID="1"/>
+    <Object W="49" Y="117" Screens="64" X="190" Attrib="46" RangeMin="-5" H="49" RangeMax="5" FieldID="105" ID="53248"/>
+    <Object W="80" Y="67" Screens="64" X="79" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="92" ID="1"/>
+    <Object W="49" Y="195" Screens="64" X="190" Attrib="44" RangeMin="-5" H="29" RangeMax="5" FieldID="149" ID="1"/>
+    <Object W="49" Y="248" Screens="64" X="189" Attrib="44" RangeMin="0" H="49" RangeMax="0" FieldID="0" ID="57410"/>
+    <Object W="50" Y="100" Screens="64" X="190" Attrib="32" RangeMin="0" H="16" RangeMax="0" FieldID="123" ID="1"/>
+    <Object W="50" Y="171" Screens="64" X="190" Attrib="32" RangeMin="0" H="16" RangeMax="0" FieldID="124" ID="1"/>
+    <Object W="81" Y="67" Screens="64" X="158" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="37" ID="1"/>
+    <Object W="225" Y="200" Screens="128" X="15" Attrib="44" RangeMin="0" H="120" RangeMax="0" FieldID="0" ID="57352"/>
+    <Object W="80" Y="1" Screens="128" X="159" Attrib="44" RangeMin="0" H="29" RangeMax="4" FieldID="247" ID="1"/>
+    <Object W="80" Y="74" Screens="128" X="61" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="177" ID="1"/>
+    <Object W="80" Y="261" Screens="1" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="177" ID="1"/>
+    <Object W="80" Y="267" Screens="1" X="160" Attrib="44" RangeMin="-5" H="29" RangeMax="5" FieldID="105" ID="1"/>
+    <Object W="70" Y="67" Screens="1" X="169" Attrib="44" RangeMin="0" H="200" RangeMax="0" FieldID="0" ID="57346"/>
+    <Object W="80" Y="231" Screens="1" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="20" FieldID="90" ID="1"/>
+    <Object W="80" Y="289" Screens="1" X="0" Attrib="44" RangeMin="0" H="29" RangeMax="0" FieldID="107" ID="1"/>
+</FlymasterLayout>
