@@ -12,7 +12,9 @@
 " Text indentantion
 :set expandtab
 :set shiftwidth=2
+:filetype indent on
 :set autoindent
+:set smartindent
 :filetype indent plugin on
 " Don't use swp files (not sure yet if it's a good idea or not)
 :set noswapfile
@@ -62,3 +64,5 @@ match OverLength /\%81v.\+/
 command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1, <bang>0)
 map <Leader>a :Find<Space>
 nnoremap K :Find <C-R><C-W><CR>
+
+autocmd BufNewFile,BufRead *.mote,*.erb,*.haml :set filetype=html
